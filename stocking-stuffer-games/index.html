@@ -4,8 +4,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Stocking Stuffer Games: Small Boxes That Get Played</title>
-  <meta name="description" content="Small card games that fit a stocking and teach in minutes, sorted for kids, teens, adults and couples. Player counts and ages from each publisher." />
+  <meta name="description" content="Small games that fit a stocking and finish in about 15 to 30 minutes, picked for kids, teens, adults, and couples." />
   <meta name="robots" content="index,follow" />
+  <link rel="preload" href="/fonts/bangers-normal-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/source-sans-3-roman-variable-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/fonts/fonts.css" />
   <link rel="stylesheet" href="/styles.css" />
   <script type="application/ld+json">
   {
@@ -36,7 +39,7 @@
             "name": "What are good stocking stuffer games for adults?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Flip 7 is a press-your-luck card game for 3 or more players, ages 8+, in about 20 minutes, and it was a 2025 Spiel des Jahres nominee. Coup is a bluffing game for 2 to 6 players, ages 13+, in about 15 minutes. Skull is a bluffing game for 3 to 6 players, ages 10+, in about 30 minutes. Love Letter also works for adults at 2 to 6 players, ages 10+, in about 20 minutes. Check the current price on Amazon."
+              "text": "Flip 7 if you've got three or more people. Coup if they like a bluff and are 13 or older. Skull for a table of 3 to 6. Love Letter if the group might shrink to two. Check the current price on Amazon."
             }
           },
           {
@@ -44,7 +47,7 @@
             "name": "What are good stocking stuffer games for kids and teens?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "For families with kids 8 and up, Sushi Go! and Qwixx are both 2 to 5 players and about 15 minutes, and both publishers print a small box size. The Mind is a quiet cooperative game for 2 to 4 players, ages 8+, in about 15 minutes. For teens, Love Letter (ages 10+) and The Crew: Mission Deep Sea (ages 10+, 3 to 5 players, about 20 minutes) are the tighter fits. Coup starts at age 13."
+              "text": "For kids 8 and up, start with Sushi Go! or Qwixx. Both come in small boxes. The Mind is a quieter cooperative game. For teens, try Love Letter (ages 10+) or The Crew: Mission Deep Sea (ages 10+). Wait until 13 for Coup."
             }
           },
           {
@@ -52,7 +55,7 @@
             "name": "What small card games are good for travel?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Thames & Kosmos calls The Crew: Mission Deep Sea a travel-size box and lists it at 5.1 by 7.1 by 1.7 inches. Space Cowboys describes Skull as compact and easy to take anywhere. Gamewright lists Sushi Go! at 4 by 5.63 by 1.5 inches and Qwixx at 5.25 by 3.75 by 1.2 inches. We only repeat travel or size claims the publisher prints."
+              "text": "The Crew: Mission Deep Sea is called travel-size, at 5.1 by 7.1 by 1.7 inches. Skull is compact and easy to take anywhere. Sushi Go! and Qwixx have small boxes too."
             }
           },
           {
@@ -60,7 +63,7 @@
             "name": "Which small card games work with just 2 players?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Jaipur is a two-player-only game, ages 10+, about 30 minutes. Codenames: Duet is cooperative for 2 or more players, ages 11+, about 15 minutes. Love Letter, Sushi Go!, Qwixx, The Mind, and Hanabi all list 2 as the minimum player count. Flip 7 and Skull start at 3 players. Kosmos lists a 2-player variant for The Crew: Mission Deep Sea; the standard count is 3 to 5."
+              "text": "Jaipur is two-player only. Codenames: Duet is built for two, and you can add more people. Love Letter, Sushi Go!, Qwixx, The Mind, and Hanabi all start at 2. Flip 7 and Skull need at least 3. The Crew is 3 to 5, with a 2-player variant from Kosmos."
             }
           },
           {
@@ -68,7 +71,7 @@
             "name": "Is a card game a good white elephant gift?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A small game is easy to wrap, and a group can play it after the swap. Whether it is a good white elephant gift depends on the room and the price cap. Check the current price on Amazon before you buy, and skip games whose age line is higher than the people at the party."
+              "text": "A small game is easy to wrap, and you can play it after the swap. Whether it's a good white elephant gift depends on the room and the price cap. Check the current price so you stay inside the limit, and skip anything with an age line higher than the people at the party."
             }
           }
         ]
@@ -78,25 +81,32 @@
   </script>
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
-    <a class="brand" href="/">Klarkx</a>
-    <nav class="nav" aria-label="Site">
-      <a href="/how-we-pick/">How we pick</a>
-      <a href="/disclosure/">Disclosure</a>
-    </nav>
+    <div class="header-inner">
+      <a class="brand" href="/">Klarkx</a>
+      <nav class="nav" aria-label="Site">
+        <a href="/how-we-pick/">How we pick</a>
+        <a href="/disclosure/">Disclosure</a>
+      </nav>
+    </div>
   </header>
+  <div class="disclosure-bar">
+    <p>As an Amazon Associate I earn from qualifying purchases.</p>
+  </div>
 
-  <main class="wrap prose">
+  <main id="main" class="page-body wide prose">
     <article>
-      <h1>Stocking stuffer games that actually come out of the stocking</h1>
-      <p class="lede">A stocking game has one job: get opened and finished before the next present is unwrapped. We choose small games from the facts the publisher prints (who can play, the age line, how long a game runs, and a box size when they give one). We do not playtest games in-house, and we do not print dollar prices.</p>
-      <p class="meta">Facts checked November 24, 2026. <a href="/how-we-pick/">How we pick</a>. Please re-check these listings before December 1.</p>
+      <div class="title-panel">
+        <h1>Stocking stuffer games<br>that actually come out of the stocking</h1>
+      <p class="lede">A stocking game has one job: get opened and finished before the next present is unwrapped.</p>
+      <p>If you're stuffing a stocking for a family with kids 8 and up, start with Sushi Go! It's a 15-minute card game. For teens and adults, I'd go with Love Letter: 2 to 6 players, about 20 minutes, and it still works when only two of you are left. If the whole house wants in, Flip 7 is for three or more.</p>
       <p class="disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-
+      </div>
       <h2 id="at-a-glance">Stocking stuffer games at a glance</h2>
-      <p class="note">Player counts, ages, times, and box sizes come from the linked publisher pages. Box size is blank when the publisher does not print one. “Check current price” goes to Amazon; those links are not tagged for Associates yet.</p>
+      <p class="note">If the box size is blank, I wouldn't count on it fitting.</p>
       <div class="table-wrap">
-        <table aria-labelledby="at-a-glance">
+        <table class="glance-table" aria-labelledby="at-a-glance">
           <thead>
             <tr>
               <th scope="col">Game</th>
@@ -108,93 +118,93 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td><a href="#sushi-go">Sushi Go!</a></td>
-              <td><a href="https://gamewright.com/product/Sushi-Go">2–5</a></td>
-              <td><a href="https://gamewright.com/product/Sushi-Go">8+</a></td>
-              <td><a href="https://gamewright.com/product/Sushi-Go">15 min</a></td>
-              <td><a href="https://gamewright.com/product/Sushi-Go">4&quot; × 5.63&quot; × 1.5&quot;</a></td>
-              <td>Families with kids 8+</td>
+                        <tr>
+              <td data-label="Game"><a href="#sushi-go">Sushi Go!</a></td>
+              <td data-label="Players"><a href="https://gamewright.com/product/Sushi-Go">2–5</a></td>
+              <td data-label="Ages"><a href="https://gamewright.com/product/Sushi-Go">8+</a></td>
+              <td data-label="Time"><a href="https://gamewright.com/product/Sushi-Go">15 min</a></td>
+              <td data-label="Box size"><a href="https://gamewright.com/product/Sushi-Go">4&quot; × 5.63&quot; × 1.5&quot;</a></td>
+              <td data-label="Best for">Families with kids 8+</td>
             </tr>
-            <tr>
-              <td><a href="#qwixx">Qwixx</a></td>
-              <td><a href="https://gamewright.com/product/Qwixx">2–5</a></td>
-              <td><a href="https://gamewright.com/product/Qwixx">8+</a></td>
-              <td><a href="https://gamewright.com/product/Qwixx">15 min</a></td>
-              <td><a href="https://gamewright.com/product/Qwixx">5.25&quot; × 3.75&quot; × 1.2&quot;</a></td>
-              <td>Families; tight stockings</td>
+                        <tr>
+              <td data-label="Game"><a href="#qwixx">Qwixx</a></td>
+              <td data-label="Players"><a href="https://gamewright.com/product/Qwixx">2–5</a></td>
+              <td data-label="Ages"><a href="https://gamewright.com/product/Qwixx">8+</a></td>
+              <td data-label="Time"><a href="https://gamewright.com/product/Qwixx">15 min</a></td>
+              <td data-label="Box size"><a href="https://gamewright.com/product/Qwixx">5.25&quot; × 3.75&quot; × 1.2&quot;</a></td>
+              <td data-label="Best for">Families; tight stockings</td>
             </tr>
-            <tr>
-              <td><a href="#the-mind">The Mind</a></td>
-              <td><a href="https://pandasaurusgames.com/products/the-mind">2–4</a></td>
-              <td><a href="https://store.asmodee.com/products/the-mind">8+</a></td>
-              <td><a href="https://pandasaurusgames.com/products/the-mind">15 min</a></td>
-              <td></td>
-              <td>Families; two players</td>
+                        <tr>
+              <td data-label="Game"><a href="#the-mind">The Mind</a></td>
+              <td data-label="Players"><a href="https://pandasaurusgames.com/products/the-mind">2–4</a></td>
+              <td data-label="Ages"><a href="https://store.asmodee.com/products/the-mind">8+</a></td>
+              <td data-label="Time"><a href="https://pandasaurusgames.com/products/the-mind">15 min</a></td>
+              <td data-label="Box size"></td>
+              <td data-label="Best for">Families; two players</td>
             </tr>
-            <tr>
-              <td><a href="#hanabi">Hanabi</a></td>
-              <td><a href="https://rnrgames.com/hanabi">2–5</a></td>
-              <td><a href="https://rnrgames.com/hanabi">8+</a></td>
-              <td><a href="https://rnrgames.com/hanabi">30 min</a></td>
-              <td></td>
-              <td>Families and teens (longer game)</td>
+                        <tr>
+              <td data-label="Game"><a href="#hanabi">Hanabi</a></td>
+              <td data-label="Players"><a href="https://rnrgames.com/hanabi">2–5</a></td>
+              <td data-label="Ages"><a href="https://rnrgames.com/hanabi">8+</a></td>
+              <td data-label="Time"><a href="https://rnrgames.com/hanabi">30 min</a></td>
+              <td data-label="Box size"></td>
+              <td data-label="Best for">Families and teens</td>
             </tr>
-            <tr>
-              <td><a href="#love-letter">Love Letter</a></td>
-              <td><a href="https://www.zmangames.com/game/love-letter/">2–6</a></td>
-              <td><a href="https://www.zmangames.com/game/love-letter/">10+</a></td>
-              <td><a href="https://www.zmangames.com/game/love-letter/">20 min</a></td>
-              <td></td>
-              <td>Teens, adults, couples</td>
+                        <tr>
+              <td data-label="Game"><a href="#love-letter">Love Letter</a></td>
+              <td data-label="Players"><a href="https://www.zmangames.com/game/love-letter/">2–6</a></td>
+              <td data-label="Ages"><a href="https://www.zmangames.com/game/love-letter/">10+</a></td>
+              <td data-label="Time"><a href="https://www.zmangames.com/game/love-letter/">20 min</a></td>
+              <td data-label="Box size"></td>
+              <td data-label="Best for">Teens, adults, couples</td>
             </tr>
-            <tr>
-              <td><a href="#the-crew">The Crew: Mission Deep Sea</a></td>
-              <td><a href="https://thamesandkosmos.com/products/the-crew-mission-deep-sea">3–5</a></td>
-              <td><a href="https://thamesandkosmos.com/products/the-crew-mission-deep-sea">10+</a></td>
-              <td><a href="https://thamesandkosmos.com/products/the-crew-mission-deep-sea">20 min</a></td>
-              <td><a href="https://thamesandkosmos.com/products/the-crew-mission-deep-sea">5.1&quot; × 7.1&quot; × 1.7&quot;</a></td>
-              <td>Teens; travel</td>
+                        <tr>
+              <td data-label="Game"><a href="#the-crew">The Crew: Mission Deep Sea</a></td>
+              <td data-label="Players"><a href="https://thamesandkosmos.com/products/the-crew-mission-deep-sea">3–5</a></td>
+              <td data-label="Ages"><a href="https://thamesandkosmos.com/products/the-crew-mission-deep-sea">10+</a></td>
+              <td data-label="Time"><a href="https://thamesandkosmos.com/products/the-crew-mission-deep-sea">20 min</a></td>
+              <td data-label="Box size"><a href="https://thamesandkosmos.com/products/the-crew-mission-deep-sea">5.1&quot; × 7.1&quot; × 1.7&quot;</a></td>
+              <td data-label="Best for">Teens; travel</td>
             </tr>
-            <tr>
-              <td><a href="#coup">Coup</a></td>
-              <td><a href="https://indieboardsandcards.com/our-games/coup/">2–6</a></td>
-              <td><a href="https://indieboardsandcards.com/our-games/coup/">13+</a></td>
-              <td><a href="https://indieboardsandcards.com/our-games/coup/">15 min</a></td>
-              <td></td>
-              <td>Older teens and adults</td>
+                        <tr>
+              <td data-label="Game"><a href="#coup">Coup</a></td>
+              <td data-label="Players"><a href="https://indieboardsandcards.com/our-games/coup/">2–6</a></td>
+              <td data-label="Ages"><a href="https://indieboardsandcards.com/our-games/coup/">13+</a></td>
+              <td data-label="Time"><a href="https://indieboardsandcards.com/our-games/coup/">15 min</a></td>
+              <td data-label="Box size"></td>
+              <td data-label="Best for">Older teens and adults</td>
             </tr>
-            <tr>
-              <td><a href="#flip-7">Flip 7</a></td>
-              <td><a href="https://www.theop.games/products/flip-7">3+</a></td>
-              <td><a href="https://www.theop.games/products/flip-7">8+</a></td>
-              <td><a href="https://www.theop.games/products/flip-7">20 min</a></td>
-              <td></td>
-              <td>Holiday crowds</td>
+                        <tr>
+              <td data-label="Game"><a href="#flip-7">Flip 7</a></td>
+              <td data-label="Players"><a href="https://www.theop.games/products/flip-7">3+</a></td>
+              <td data-label="Ages"><a href="https://www.theop.games/products/flip-7">8+</a></td>
+              <td data-label="Time"><a href="https://www.theop.games/products/flip-7">20 min</a></td>
+              <td data-label="Box size"></td>
+              <td data-label="Best for">Holiday crowds</td>
             </tr>
-            <tr>
-              <td><a href="#skull">Skull</a></td>
-              <td><a href="https://www.spacecowboys-games.com/game/skull/">3–6</a></td>
-              <td><a href="https://store.asmodee.com/products/skull">10+</a></td>
-              <td><a href="https://www.spacecowboys-games.com/game/skull/">30 min</a></td>
-              <td></td>
-              <td>Adult and party tables</td>
+                        <tr>
+              <td data-label="Game"><a href="#skull">Skull</a></td>
+              <td data-label="Players"><a href="https://www.spacecowboys-games.com/game/skull/">3–6</a></td>
+              <td data-label="Ages"><a href="https://store.asmodee.com/products/skull">10+</a></td>
+              <td data-label="Time"><a href="https://www.spacecowboys-games.com/game/skull/">30 min</a></td>
+              <td data-label="Box size"></td>
+              <td data-label="Best for">Adults and parties</td>
             </tr>
-            <tr>
-              <td><a href="#codenames-duet">Codenames: Duet</a></td>
-              <td><a href="https://czechgames.com/en/codenames-duet/">2+</a></td>
-              <td><a href="https://czechgames.com/en/codenames-duet/">11+</a></td>
-              <td><a href="https://czechgames.com/en/codenames-duet/">15 min</a></td>
-              <td></td>
-              <td>Couples (size unlisted)</td>
+                        <tr>
+              <td data-label="Game"><a href="#codenames-duet">Codenames: Duet</a></td>
+              <td data-label="Players"><a href="https://czechgames.com/en/codenames-duet/">2+</a></td>
+              <td data-label="Ages"><a href="https://czechgames.com/en/codenames-duet/">11+</a></td>
+              <td data-label="Time"><a href="https://czechgames.com/en/codenames-duet/">15 min</a></td>
+              <td data-label="Box size"></td>
+              <td data-label="Best for">Couples</td>
             </tr>
-            <tr>
-              <td><a href="#jaipur">Jaipur</a></td>
-              <td><a href="https://www.spacecowboys-games.com/game/jaipur/">2</a></td>
-              <td><a href="https://www.spacecowboys-games.com/game/jaipur/">10+</a></td>
-              <td><a href="https://www.spacecowboys-games.com/game/jaipur/">30 min</a></td>
-              <td></td>
-              <td>Couples</td>
+                        <tr>
+              <td data-label="Game"><a href="#jaipur">Jaipur</a></td>
+              <td data-label="Players"><a href="https://www.spacecowboys-games.com/game/jaipur/">2</a></td>
+              <td data-label="Ages"><a href="https://www.spacecowboys-games.com/game/jaipur/">10+</a></td>
+              <td data-label="Time"><a href="https://www.spacecowboys-games.com/game/jaipur/">30 min</a></td>
+              <td data-label="Box size"></td>
+              <td data-label="Best for">Couples</td>
             </tr>
           </tbody>
         </table>
@@ -203,96 +213,75 @@
       <h2>Best for families with kids 8 and up</h2>
 
       <h3 id="sushi-go">Sushi Go!</h3>
-      <p>Pass a hand of sushi cards, keep one, and pass the rest. Gamewright lists <a href="https://gamewright.com/product/Sushi-Go">2 to 5 players, ages 8+, about 15 minutes, 108 cards, and a 4&quot; × 5.63&quot; × 1.5&quot; box</a>. That is the clearest stocking fit on this list.</p>
-      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a href="https://www.amazon.com/dp/B00J57VU44" rel="nofollow sponsored">Sushi Go! on Amazon</a> (check current price)</p>
+      <p>Pass a hand of sushi cards, keep one, and pass the rest. It plays in about 15 minutes with 2 to 5 people, ages 8 and up. The box is small, so this is the one I'd actually expect to fit.</p>
+      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a class="btn" href="https://www.amazon.com/dp/B00J57VU44" rel="nofollow sponsored">Sushi Go! on Amazon</a> (check current price)</p>
 
       <h3 id="qwixx">Qwixx</h3>
-      <p>A dice game, not a card game, and still small enough to stuff. Gamewright lists <a href="https://gamewright.com/product/Qwixx">2 to 5 players, ages 8+, about 15 minutes, and a 5.25&quot; × 3.75&quot; × 1.2&quot; box</a>. The publisher’s note is that you have a chance to gain from every roll, so the table does not sit out between turns.</p>
-      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a href="https://www.amazon.com/dp/B00J57138C" rel="nofollow sponsored">Qwixx on Amazon</a> (check current price)</p>
+      <p>Qwixx is a dice game, and the box is even smaller: 5.25 by 3.75 by 1.2 inches. 2 to 5 players, ages 8 and up, about 15 minutes. You get a chance to gain on every roll, so nobody sits out waiting for a turn.</p>
+      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a class="btn" href="https://www.amazon.com/dp/B00J57138C" rel="nofollow sponsored">Qwixx on Amazon</a> (check current price)</p>
 
       <h3 id="the-mind">The Mind</h3>
-      <p>A cooperative game with no talking: play numbered cards in ascending order. <a href="https://pandasaurusgames.com/products/the-mind">Pandasaurus lists 2 to 4 players and 15 minutes</a>. The publisher page does not print an age. <a href="https://store.asmodee.com/products/the-mind">Asmodee’s US store, which names Pandasaurus as the publisher, lists a minimum recommended age of 8</a>, and the <!-- TODO-TAG: add Associates tag when the klarkx account is live --><a href="https://www.amazon.com/dp/B07C4F3KLF" rel="nofollow sponsored">Amazon listing sold by Pandasaurus</a> matches that 8+ line.</p>
-      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a href="https://www.amazon.com/dp/B07C4F3KLF" rel="nofollow sponsored">The Mind on Amazon</a> (check current price)</p>
+      <p>Nobody talks. You just try to play numbered cards in ascending order and stay in sync. It's cooperative, for 2 to 4 players, ages 8 and up, and it takes about 15 minutes.</p>
+      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a class="btn" href="https://www.amazon.com/dp/B07C4F3KLF" rel="nofollow sponsored">The Mind on Amazon</a> (check current price)</p>
 
       <h3 id="hanabi">Hanabi</h3>
-      <p>You can see everyone else’s cards, but not your own. The team gives short clues and tries to build fireworks in order. <a href="https://rnrgames.com/hanabi">R&amp;R Games lists 2 to 5 players, ages 8+, and 30 minutes</a>, and calls out that it is the 2013 Spiel des Jahres winner, designed by Antoine Bauza. Thirty minutes is the long end of this list.</p>
-      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a href="https://www.amazon.com/dp/B00CYQ9Q76" rel="nofollow sponsored">Hanabi on Amazon</a> (check current price)</p>
+      <p>You can see everyone else's cards, but not your own. You give short clues and try to build fireworks in order. 2 to 5 players, ages 8 and up, about 30 minutes, so give it a little more time than the others. It won Spiel des Jahres in 2013.</p>
+      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a class="btn" href="https://www.amazon.com/dp/B00CYQ9Q76" rel="nofollow sponsored">Hanabi on Amazon</a> (check current price)</p>
 
       <h2>Best for teens</h2>
 
       <h3 id="love-letter">Love Letter</h3>
-      <p>A short game of risk and deduction with a small deck. <a href="https://www.zmangames.com/game/love-letter/">Z-Man Games lists the current edition at 2 to 6 players, ages 10+, about 20 minutes, and 21 character cards</a>. That player count also makes it a clean two-person option later in the evening.</p>
-      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a href="https://www.amazon.com/dp/B0F2J8DVHH" rel="nofollow sponsored">Love Letter (2025 edition) on Amazon</a> (check current price)</p>
+      <p>A small deck, a little risk, and you're done in about 20 minutes. 2 to 6 players, ages 10 and up. It's a good one for later, too, when only two of you are still awake.</p>
+      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a class="btn" href="https://www.amazon.com/dp/B0F2J8DVHH" rel="nofollow sponsored">Love Letter (2025 edition) on Amazon</a> (check current price)</p>
 
       <h3 id="the-crew">The Crew: Mission Deep Sea</h3>
-      <p>A cooperative trick-taking game. You win as a team, and you are not supposed to talk freely about the cards in your hand. <a href="https://thamesandkosmos.com/products/the-crew-mission-deep-sea">Thames &amp; Kosmos lists 3 to 5 players, ages 10+, about 20 minutes, and a 5.1&quot; × 7.1&quot; × 1.7&quot; travel-size box</a>. Seven inches is longer than the Gamewright tins, so measure the stocking before you count on a perfect fit. <a href="https://www.kosmos.de/en/products/die-crew-mission-tiefsee">Kosmos, the original publisher, also lists a special 2-player variant</a>; the standard count on both publisher pages is 3 to 5.</p>
-      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a href="https://www.amazon.com/dp/B08TX1GGSH" rel="nofollow sponsored">The Crew: Mission Deep Sea on Amazon</a> (check current price)</p>
+      <p>You win as a team, and you're not supposed to talk freely about the cards in your hand. 3 to 5 players, ages 10 and up, about 20 minutes. The box is 5.1 by 7.1 by 1.7 inches, which is longer than the little tins, so measure the stocking. If it's just the two of you, Kosmos has a 2-player variant.</p>
+      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a class="btn" href="https://www.amazon.com/dp/B08TX1GGSH" rel="nofollow sponsored">The Crew: Mission Deep Sea on Amazon</a> (check current price)</p>
 
       <h3 id="coup">Coup</h3>
-      <p>Bluff, claim a role, and hope nobody calls you on it. <a href="https://indieboardsandcards.com/our-games/coup/">Indie Boards and Cards lists 2 to 6 players, ages 13+, and 15 minutes</a>. The age line is higher than the rest of the teen picks, which is why it sits here and with the adults, not with the 8+ family games.</p>
-      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a href="https://www.amazon.com/dp/B00GDI4HX4" rel="nofollow sponsored">Coup on Amazon</a> (check current price)</p>
+      <p>Bluff, claim a role, and hope nobody calls you on it. 2 to 6 players, about 15 minutes, ages 13 and up. Save this one for older teens and adults.</p>
+      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a class="btn" href="https://www.amazon.com/dp/B00GDI4HX4" rel="nofollow sponsored">Coup on Amazon</a> (check current price)</p>
 
       <h2>Best for adults and party crowds</h2>
 
       <h3 id="flip-7">Flip 7</h3>
-      <p>Flip cards and bank your points before you see the same number twice. <a href="https://www.theop.games/products/flip-7">The Op lists the second edition at 3 or more players, ages 8+, about 20 minutes, and 94 cards</a>, and notes that it was a 2025 Spiel des Jahres nominee. There is no two-player count here. If the holiday table is three or larger, this is the crowd game on the list.</p>
-      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a href="https://www.amazon.com/dp/B0DWGVM7RY" rel="nofollow sponsored">Flip 7 on Amazon</a> (check current price)</p>
+      <p>Flip cards and bank your points before you see the same number twice. It's for 3 or more players, ages 8 and up, about 20 minutes. If the holiday table is crowded, this is your game. It was nominated for Spiel des Jahres in 2025. It doesn't play with two.</p>
+      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a class="btn" href="https://www.amazon.com/dp/B0DWGVM7RY" rel="nofollow sponsored">Flip 7 on Amazon</a> (check current price)</p>
 
       <h3 id="skull">Skull</h3>
-      <p>Each person has three flower discs and one skull. You place, bid, and flip, and a skull ends the bravado. <a href="https://www.spacecowboys-games.com/game/skull/">Space Cowboys lists 3 to 6 players and 30 minutes</a>, and says the compact format is easy to take anywhere. The age line on that page is written as “10”; <a href="https://store.asmodee.com/products/skull">Asmodee’s US store, which names Space Cowboys as the publisher, lists a minimum recommended age of 10</a>.</p>
-      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a href="https://www.amazon.com/dp/B08R2BPLSN" rel="nofollow sponsored">Skull on Amazon</a> (check current price)</p>
+      <p>Each person has three flower discs and one skull. You place, bid, and flip, and a skull ends the bid. 3 to 6 players, ages 10 and up, about 30 minutes. It's compact, so it's easy to take along.</p>
+      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a class="btn" href="https://www.amazon.com/dp/B08R2BPLSN" rel="nofollow sponsored">Skull on Amazon</a> (check current price)</p>
 
-      <p>Love Letter and Coup also belong at an adult table. Flip 7 if the group is big. Skull if they like a bluff. Love Letter if you want a game that still works when only two people are still awake.</p>
+      <p>Love Letter and Coup work at an adult table too. Flip 7 if the group's big. Skull if they like a bluff. Love Letter if you might end up with just two people.</p>
 
       <h2>Best for couples</h2>
 
       <h3 id="codenames-duet">Codenames: Duet</h3>
-      <p>The two-player, cooperative version of Codenames. You give one-word clues and try to find your agents without hitting an assassin. <a href="https://czechgames.com/en/codenames-duet/">Czech Games Edition lists the 2025 edition at 2 or more players, ages 11+, and 15 minutes</a>, with 400 words that can be combined with standard Codenames. The publisher does not print a box size, so we are not calling this a stocking fit. It is on the list because it is built for two people and plays in 15 minutes.</p>
-      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a href="https://www.amazon.com/dp/B0FJMNPGXM" rel="nofollow sponsored">Codenames: Duet (2025 edition) on Amazon</a> (check current price)</p>
+      <p>You and a partner give one-word clues and try to find your agents without hitting an assassin. It's the cooperative, two-player version of Codenames, ages 11 and up, about 15 minutes. You can add more people if you want. I don't have a box size, so I wouldn't count on it fitting a stocking.</p>
+      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a class="btn" href="https://www.amazon.com/dp/B0FJMNPGXM" rel="nofollow sponsored">Codenames: Duet (2025 edition) on Amazon</a> (check current price)</p>
 
       <h3 id="jaipur">Jaipur</h3>
-      <p>A trading game for exactly two. Collect goods, sell them, and try to win two rounds. <a href="https://www.spacecowboys-games.com/game/jaipur/">Space Cowboys lists 2 players, ages 10+, and 30 minutes</a>. No box size is printed there, so treat the fit as unknown and the play time as the long end of this list.</p>
-      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a href="https://www.amazon.com/dp/B07SRMXRZB" rel="nofollow sponsored">Jaipur on Amazon</a> (check current price)</p>
+      <p>A trading game for exactly two people. You collect goods, sell them, and try to win two rounds. Ages 10 and up, about 30 minutes. I don't have a box size for this one either, so maybe it goes under the tree.</p>
+      <p class="buy"><!-- TODO-TAG: add Associates tag when the klarkx account is live --><a class="btn" href="https://www.amazon.com/dp/B07SRMXRZB" rel="nofollow sponsored">Jaipur on Amazon</a> (check current price)</p>
 
-      <p>Love Letter and The Mind also list two as a legal player count. If you want a Crew game for two, use the 2-player variant Kosmos describes; do not assume the US 3–5 listing covers that by itself.</p>
+      <p>Love Letter and The Mind also work with two. If you want The Crew for two, use the 2-player variant Kosmos describes.</p>
 
       <h2>What makes a good stocking stuffer game</h2>
-      <p>Three things, and we only claim the ones we can source:</p>
-      <ul>
-        <li><strong>It fits the stocking.</strong> We print a box size only when the publisher states it. Gamewright does that for Sushi Go! and Qwixx. Thames &amp; Kosmos does it for The Crew: Mission Deep Sea, and that box is longer. If no size is listed, we leave the cell blank and we do not pretend it will fit.</li>
-        <li><strong>It does not need a lecture.</strong> We do not have a measured teach time for these titles, so we do not invent one. We look for short published play times and rules the publisher describes as simple or quick to play.</li>
-        <li><strong>It ends in about half an hour or less.</strong> Most of these are listed at 15 or 20 minutes. Hanabi, Skull, and Jaipur are listed at 30, which is the ceiling for this page.</li>
-      </ul>
-      <p>If you have a little more room under the tree, see best board games under $20. For someone who already owns games, see gifts for board game lovers. The couples picks above also belong with best 2-player board games and best board games for families.</p>
+      <p>A good stocking game fits the sock, doesn't need a lecture, and wraps up in about half an hour. Sushi Go! and Qwixx come in small boxes. The Crew is travel-size, but that box is about 7 inches long, so check the fit. Most of these are 15 or 20 minutes. Hanabi, Skull, and Jaipur run about 30.</p>
 
-      <h2>FAQ</h2>
+      <h2>Quick questions</h2>
       <dl class="faq">
         <dt>What are good stocking stuffer games for adults?</dt>
-        <dd>Flip 7 for a group of three or more, Coup if they like a bluff and are 13 or older, Skull for a 3 to 6 player table, and Love Letter when the group might shrink to two. Check the current price on Amazon.</dd>
+        <dd>Flip 7 if you've got three or more people. Coup if they like a bluff and are 13 or older. Skull for a table of 3 to 6. Love Letter if the group might shrink to two. Check the current price on Amazon.</dd>
         <dt>What are good stocking stuffer games for kids or teens?</dt>
-        <dd>For kids 8 and up, start with Sushi Go! or Qwixx, both in small, measured boxes. The Mind is a quieter cooperative option. For teens, Love Letter (10+) and The Crew: Mission Deep Sea (10+) are the closer fits. Coup waits until 13.</dd>
+        <dd>For kids 8 and up, start with Sushi Go! or Qwixx. Both come in small boxes. The Mind is a quieter cooperative game. For teens, try Love Letter (ages 10+) or The Crew: Mission Deep Sea (ages 10+). Wait until 13 for Coup.</dd>
         <dt>What small card games are good for travel?</dt>
-        <dd>Thames &amp; Kosmos calls The Crew: Mission Deep Sea travel-size and prints the dimensions. Space Cowboys calls Skull compact and easy to take anywhere. Sushi Go! and Qwixx have small, published box sizes. We do not repeat “travel” language that only appears in retailer copy.</dd>
+        <dd>The Crew: Mission Deep Sea is called travel-size, at 5.1 by 7.1 by 1.7 inches. Skull is compact and easy to take anywhere. Sushi Go! and Qwixx have small boxes too.</dd>
         <dt>Which small card games work with just 2 players?</dt>
-        <dd>Jaipur is two-player only. Codenames: Duet is built for two (and can add more). Love Letter, Sushi Go!, Qwixx, The Mind, and Hanabi all start at 2. Flip 7 and Skull start at 3. The Crew is 3 to 5, with a 2-player variant on the Kosmos page.</dd>
+        <dd>Jaipur is two-player only. Codenames: Duet is built for two, and you can add more people. Love Letter, Sushi Go!, Qwixx, The Mind, and Hanabi all start at 2. Flip 7 and Skull need at least 3. The Crew is 3 to 5, with a 2-player variant from Kosmos.</dd>
         <dt>Is a card game a good white elephant gift?</dt>
-        <dd>A small game is easy to wrap, and a group can play it after the swap. Whether it is a good white elephant gift depends on the room and the price cap. Check the current price so you stay inside the limit, and skip a game whose age line is higher than the people at the party.</dd>
+        <dd>A small game is easy to wrap, and you can play it after the swap. Whether it's a good white elephant gift depends on the room and the price cap. Check the current price so you stay inside the limit, and skip anything with an age line higher than the people at the party.</dd>
       </dl>
-
-      <h2>Sources</h2>
-      <ol class="sources">
-        <li>Sushi Go! — <a href="https://gamewright.com/product/Sushi-Go">Gamewright</a></li>
-        <li>Qwixx — <a href="https://gamewright.com/product/Qwixx">Gamewright</a></li>
-        <li>The Mind — <a href="https://pandasaurusgames.com/products/the-mind">Pandasaurus Games</a>; age 8+ from <a href="https://store.asmodee.com/products/the-mind">Asmodee US</a> and the <!-- TODO-TAG: add Associates tag when the klarkx account is live --><a href="https://www.amazon.com/dp/B07C4F3KLF" rel="nofollow sponsored">Amazon listing sold by Pandasaurus</a></li>
-        <li>Hanabi — <a href="https://rnrgames.com/hanabi">R&amp;R Games</a></li>
-        <li>Love Letter — <a href="https://www.zmangames.com/game/love-letter/">Z-Man Games</a></li>
-        <li>The Crew: Mission Deep Sea — <a href="https://thamesandkosmos.com/products/the-crew-mission-deep-sea">Thames &amp; Kosmos</a>; 2-player variant from <a href="https://www.kosmos.de/en/products/die-crew-mission-tiefsee">Kosmos</a></li>
-        <li>Coup — <a href="https://indieboardsandcards.com/our-games/coup/">Indie Boards and Cards</a></li>
-        <li>Flip 7 (2nd edition) — <a href="https://www.theop.games/products/flip-7">The Op</a></li>
-        <li>Skull — <a href="https://www.spacecowboys-games.com/game/skull/">Space Cowboys</a>; age 10+ from <a href="https://store.asmodee.com/products/skull">Asmodee US</a></li>
-        <li>Codenames: Duet (2025 edition) — <a href="https://czechgames.com/en/codenames-duet/">Czech Games Edition</a></li>
-        <li>Jaipur — <a href="https://www.spacecowboys-games.com/game/jaipur/">Space Cowboys</a></li>
-      </ol>
     </article>
   </main>
 

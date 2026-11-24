@@ -6,21 +6,37 @@
   <title>Page not found — Klarkx</title>
   <meta name="description" content="That page could not be found." />
   <meta name="robots" content="noindex" />
+  <link rel="preload" href="/fonts/bangers-normal-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/source-sans-3-roman-variable-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/fonts/fonts.css" />
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
-  <main class="wrap">
-    <p class="eyebrow">Klarkx</p>
-    <div class="rule" aria-hidden="true"><span class="dot">·</span></div>
-    <h1>Page not found.</h1>
-    <p class="lede"><a class="home-link" href="/">Back to Klarkx</a></p>
-    <p class="disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/">Klarkx</a>
+      <nav class="nav" aria-label="Site">
+      <a href="/how-we-pick/">How we pick</a>
+      <a href="/disclosure/">Disclosure</a>
+      </nav>
+    </div>
+  </header>
+  <div class="disclosure-bar">
+    <p>As an Amazon Associate I earn from qualifying purchases.</p>
+  </div>
+  <main id="main" class="page-body">
+    <div class="title-panel">
+      <h1>Page not found</h1>
+      <p class="lede"><a class="btn" href="/">Back to Klarkx</a></p>
+    </div>
   </main>
   <footer>
     <nav class="footer-nav" aria-label="Footer">
       <a href="/how-we-pick/">How we pick</a>
       <a href="/disclosure/">Disclosure</a>
     </nav>
+    <p class="disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
     <p>klarkx.com · Sparta Labs · © 2026</p>
   </footer>
 </body>
