@@ -3,24 +3,106 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Klarkx</title>
-  <meta name="description" content="Board games, tabletop, and hobby toys." />
+  <title>Klarkx — Fun stuff to make and play</title>
+  <meta name="description" content="Games, puzzles, and hobby kits that get opened, not parked on a shelf." />
   <meta name="robots" content="index,follow" />
+  <link rel="preload" href="/fonts/bangers-normal-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/source-sans-3-roman-variable-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/fonts/fonts.css" />
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
-  <main class="wrap">
-    <p class="eyebrow">Klarkx</p>
-    <div class="rule" aria-hidden="true"><span class="dot">·</span></div>
-    <h1>Board games, tabletop, and hobby toys.</h1>
-    <p class="lede"><a class="home-link" href="/stocking-stuffer-games/">Stocking stuffer games</a></p>
-    <p class="disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/">Klarkx</a>
+      <nav class="nav" aria-label="Site">
+        <a href="/how-we-pick/">How we pick</a>
+        <a href="/disclosure/">Disclosure</a>
+      </nav>
+    </div>
+  </header>
+  <div class="disclosure-bar">
+    <p>As an Amazon Associate I earn from qualifying purchases.</p>
+  </div>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Games · Puzzles · Hobby kits</p>
+          <h1 class="hero-title">Fun stuff to<br>make and play</h1>
+          <p class="hero-lede">Games, puzzles, and hobby kits that get opened, not parked on a shelf.</p>
+          <a class="btn" href="/stocking-stuffer-games/">See stocking stuffer games</a>
+        </div>
+        <div class="hero-bursts" aria-hidden="true">
+          <div class="burst burst-pow">
+            <svg viewBox="0 0 320 320" width="140" height="140">
+              <polygon points="160.0,0.0 177.2,73.7 221.2,12.2 208.9,86.8 273.1,46.9 233.2,111.1 307.8,98.8 246.3,142.8 320.0,160.0 246.3,177.2 307.8,221.2 233.2,208.9 273.1,273.1 208.9,233.2 221.2,307.8 177.2,246.3 160.0,320.0 142.8,246.3 98.8,307.8 111.1,233.2 46.9,273.1 86.8,208.9 12.2,221.2 73.7,177.2 0.0,160.0 73.7,142.8 12.2,98.8 86.8,111.1 46.9,46.9 111.1,86.8 98.8,12.2 142.8,73.7" fill="#FFD100" stroke="#17110B" stroke-width="8" stroke-linejoin="round"></polygon>
+            </svg>
+            <span class="burst-label">POW</span>
+          </div>
+          <div class="burst burst-zap">
+            <svg viewBox="0 0 220 220" width="140" height="140">
+              <polygon points="131.9,2.2 137.6,54.5 182.8,27.6 161.7,75.7 214.3,75.0 171.9,106.2 217.8,131.9 165.5,137.6 192.4,182.8 144.3,161.7 145.0,214.3 113.8,171.9 88.1,217.8 82.4,165.5 37.2,192.4 58.3,144.3 5.7,145.0 48.1,113.8 2.2,88.1 54.5,82.4 27.6,37.2 75.7,58.3 75.0,5.7 106.2,48.1" fill="#C8102E" stroke="#17110B" stroke-width="7" stroke-linejoin="round"></polygon>
+            </svg>
+            <span class="burst-label">ZAP</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section categories">
+      <article class="panel cat-card">
+        <div class="cat-head">
+          <svg class="icon" viewBox="0 0 56 56" width="56" height="56" aria-hidden="true" focusable="false">
+              <rect x="4" y="4" width="48" height="48" rx="8" fill="#C8102E" stroke="#17110B" stroke-width="4"></rect>
+              <circle cx="18" cy="18" r="4.5" fill="#FFF8EA"></circle>
+              <circle cx="38" cy="18" r="4.5" fill="#FFF8EA"></circle>
+              <circle cx="28" cy="28" r="4.5" fill="#FFF8EA"></circle>
+              <circle cx="18" cy="38" r="4.5" fill="#FFF8EA"></circle>
+              <circle cx="38" cy="38" r="4.5" fill="#FFF8EA"></circle>
+            </svg>
+          <h2 class="cat-title">Games</h2>
+        </div>
+        <p>Small boxes that get played, not parked on a shelf.</p>
+        <a class="btn btn-blue" href="/stocking-stuffer-games/">See stocking stuffer games</a>
+      </article>
+      <article class="panel cat-card">
+        <div class="cat-head">
+          <svg class="icon" viewBox="0 0 56 56" width="56" height="56" aria-hidden="true" focusable="false">
+              <path d="M8 16 h12 c0-9 14-9 14 0 h12 v12 c9 0 9 14 0 14 v12 h-12 c0 9-14 9-14 0 h-12 v-12 c-9 0-9-14 0-14 z" fill="#1E4B9A" stroke="#17110B" stroke-width="4" stroke-linejoin="round"></path>
+            </svg>
+          <h2 class="cat-title">Puzzles</h2>
+        </div>
+        <p>A quiet hour with a jigsaw, or a pocket puzzle for the trip.</p>
+      </article>
+      <article class="panel cat-card">
+        <div class="cat-head">
+          <svg class="icon" viewBox="0 0 56 56" width="56" height="56" aria-hidden="true" focusable="false">
+              <rect x="6" y="18" width="44" height="30" rx="3" fill="#FFD100" stroke="#17110B" stroke-width="4"></rect>
+              <rect x="6" y="12" width="44" height="10" rx="2" fill="#C8102E" stroke="#17110B" stroke-width="4"></rect>
+              <path d="M28 22 L31 28 H25 Z" fill="#FFD100" stroke="#17110B" stroke-width="2.5" stroke-linejoin="round"></path>
+            </svg>
+          <h2 class="cat-title">Hobby kits</h2>
+        </div>
+        <p>Make something with your hands, then show it off.</p>
+      </article>
+    </div>
+
+    <div class="section featured">
+      <article class="panel">
+        <h2>Stocking stuffer games that actually come out of the stocking</h2>
+        <p>A stocking game has one job: get opened and finished before the next present is unwrapped.</p>
+        <a class="btn" href="/stocking-stuffer-games/">Read the list</a>
+      </article>
+    </div>
   </main>
   <footer>
     <nav class="footer-nav" aria-label="Footer">
       <a href="/how-we-pick/">How we pick</a>
       <a href="/disclosure/">Disclosure</a>
     </nav>
+    <p class="disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
     <p>klarkx.com · Sparta Labs · © 2026</p>
   </footer>
 </body>
