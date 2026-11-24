@@ -1,0 +1,3 @@
+# Serve the Search Console verification file at the exact .html URL.
+# Pages would otherwise 308 this path to the extensionless counterpart.
+/google6586653657b36282.html /google6586653657b36282 200
