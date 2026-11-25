@@ -371,6 +371,9 @@ button:focus-visible,
 }
 
 .featured {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   padding: 16px 0 32px;
 }
 
@@ -768,7 +771,7 @@ footer p { margin: 0; }
 
   .cat-card p { font-size: 18px; line-height: 28px; }
 
-  .featured { padding: 24px 0 64px; }
+  .featured { padding: 24px 0 64px; gap: 24px; }
 
   .featured .panel { padding: 36px 40px 40px; border-width: 6px; gap: 16px; }
 
